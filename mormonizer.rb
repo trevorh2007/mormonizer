@@ -3,7 +3,7 @@ require 'facets/enumerable/every'
 def anim(string)
   string.each_char do |n|
   print n
-  charWait = rand(0.07..0.1)
+  charWait = rand(0.03..0.05)
   sleep(charWait)
   end
 end
